@@ -3,6 +3,8 @@ import Image1 from './images/Image1.jpg';
 import Image2 from './images/Image2.jpg';
 import Image3 from './images/Image3.jpg';
 
+// images put into array to dynamically assign the image URLs
+// as the sources to images elements in a for-loop.
 const imageSources = [
   Image1,
   Image2,
@@ -18,6 +20,9 @@ function buildPage() {
 
   contentImages.id = 'pizza-showcase';
 
+  // dynamically assign previously imported images to image elements, this
+  // way there's no need to create new variables for each created image element
+  // and do element.appendChild() for each of them.
   for (let i = 0; i < 3; i++) {
     let img = new Image();
     img.src = imageSources[i];
