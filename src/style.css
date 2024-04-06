@@ -49,6 +49,8 @@ header nav button {
   font-size: 18px;
   font-weight: bold;
   color: rgb(245, 213, 192);
+
+  cursor: pointer;
 }
 
 #content {
