@@ -19,6 +19,7 @@ function buildMenu() {
 
   for (let key in pizzaMenu) {
     let menuSelection = document.createElement('div');
+    menuSelection.classList.add('menu-item');
     let itemName = document.createElement('h2');
     let itemDescription = document.createElement('p');
 

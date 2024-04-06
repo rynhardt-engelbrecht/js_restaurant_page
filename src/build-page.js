@@ -13,6 +13,7 @@ const imageSources = [
 
 function buildPage() {
   const contentDiv = document.querySelector('#content');
+  contentDiv.innerHTML = '';
 
   const contentHeader = document.createElement('h1');
   const contentParagraph = document.createElement('p');
