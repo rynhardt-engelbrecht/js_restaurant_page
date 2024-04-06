@@ -4,7 +4,7 @@ h1 {
 
 html, body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   height: 100%;
 
   color: rgb(245, 213, 192);
@@ -60,6 +60,8 @@ header nav button {
   flex-direction: column;
   align-items: center;
 
+  gap: 8px;
+
   background: url('./images/background.jpg');
   background-size: cover;
   background-position: right;
@@ -82,3 +84,17 @@ header nav button {
   border: 2px solid white;
   border-radius: 16px;
 }
+
+#content .menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  background-color: rgba(54, 36, 19, 0.4);
+}
+
+.menu-item h2 {
+  font-size: 18px;
+}
+
