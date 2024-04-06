@@ -4,7 +4,7 @@ const pizzaMenu = {
   'BBQ Bacon': 'Bacon, BBQ Sauce',
   'Hawaiian': 'Ham, Pineapple',
   'Creamy Bacon & Spinach': 'Cream cheese base, bacon, spinach, onion, feta',
-  'Mexian Fiesta': 'Ground Beef, jalapeño, green pepper, onion',
+  'Mexican Fiesta': 'Ground Beef, jalapeño, green pepper, onion',
   'Club': 'Ham, Bacon, Chicken, BBQ Sauce',
 };
 
