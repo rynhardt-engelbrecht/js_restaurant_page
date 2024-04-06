@@ -16,6 +16,8 @@ function buildPage() {
   const contentParagraph = document.createElement('p');
   const contentImages = document.createElement('div');
 
+  contentImages.id = 'pizza-showcase';
+
   for (let i = 0; i < 3; i++) {
     let img = new Image();
     img.src = imageSources[i];
