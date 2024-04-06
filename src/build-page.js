@@ -1,4 +1,3 @@
-import ('./style.css');
 import Image1 from './images/Image1.jpg';
 import Image2 from './images/Image2.jpg';
 import Image3 from './images/Image3.jpg';

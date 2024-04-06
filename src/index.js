@@ -1,5 +1,6 @@
 import buildPage from './build-page.js';
 import buildMenu from './menu.js';
+import('./style.css');
 
 buildPage();
 

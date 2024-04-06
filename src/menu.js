@@ -1,5 +1,3 @@
-import('./style.css');
-
 const pizzaMenu = {
   'BBQ Bacon': 'Bacon, BBQ Sauce',
   'Hawaiian': 'Ham, Pineapple',
